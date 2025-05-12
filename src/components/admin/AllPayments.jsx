@@ -73,7 +73,7 @@ function AllPayments() {
                   payments.map((item, index) => (
                     <tr>
                       <td>{index + 1}</td>
-                      <td>{item?.userId.userName}</td>
+                      <td>{item?.userId?.userName}</td>
                       <td>{item?.paymentId}</td>
                       <td>{item?.amount}</td>
                       <td>{item?.paymentMethod}</td>
