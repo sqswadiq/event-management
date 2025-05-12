@@ -38,7 +38,7 @@ function AdminDashboard() {
             Logout</button>
         </div>
       </div>
-      <div className="col-lg-9 primarybg border rounded shadow my-4 p-0">
+      <div className="col-lg-9 primarybg border rounded shadow my-4 p-0 ">
         <Outlet />
       </div>
     </div>

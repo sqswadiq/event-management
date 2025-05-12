@@ -1,12 +1,12 @@
 .full_height{
     height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
  }
  .primarybg{
      background-color: #F8F9FA ;
  }
- /* .secondarybg{
-     background-color: #04262C;
- } */
+
  .thirdbg{
      background-color: #0a001a ;
  }
@@ -29,4 +29,5 @@
 }
 .overflowscroll{
     overflow-x: scroll !important;
+    height: 100%;
 }
