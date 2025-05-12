@@ -1,0 +1,48 @@
+.parent-container {
+    position: relative;
+    background: url('../../assets/Aboutbg.jpg') no-repeat center center/cover; 
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.parent-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    /* Background Image */
+    background:  rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px); 
+    transform: scale(1.1);
+    z-index: 0;
+}
+.contents{
+    z-index: 1;
+    margin-top: 70px;
+    padding-bottom: 40px;
+}
+.libre-baskerville-bold {
+    font-weight: 800;
+    font-style: normal;
+    font-size: 55px;
+    max-width: 70%; 
+
+  }
+
+.landingbtn{
+    /* background-color: rgb(217, 192, 252); */
+    background-color:#F8F9FA;
+    border: solid 3px #522b3d;
+    color: #411a2b;
+    border-radius: 50px;
+}
+.landingbtn:hover{
+    background-color:  rgb(223, 215, 235)!important;
+    border: solid 3px #2b0013;
+    color: #2b0013;
+
+}

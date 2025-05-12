@@ -1,0 +1,115 @@
+/* *{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+
+.primarycolor {
+    color: #DDE5E5;
+}
+
+.secondarycolor {
+    color: #0d021f;
+
+}
+
+.thirdcolor {
+    color: #2b0013;
+}
+
+.zoom-effect {
+    transition: transform 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.zoom-effect:hover {
+    transform: scale(1.2);
+    /* Zoom in */
+}
+
+.zoom-effect:active {
+    color: rgb(146, 146, 172) !important;
+}
+
+.glass-effect {
+    background: rgba(255, 255, 255, 0.3) !important;
+    /* Light transparency */
+    backdrop-filter: blur(10px) !important;
+    /* Apply blur effect */
+    border-radius: 10px !important;
+}
+.bookingbutton{
+    background-color: #0a001a;
+    color: #EBD3F8;
+    border: none;
+}
+.bookingbutton:hover{
+    background-color: #2b0013;
+    color: #efe2f7;
+}
+
+
+.cart-count-btn {
+    cursor: pointer;
+    transition: transform 0.1s ease;
+  }
+  
+  .cart-count-btn:active {
+    transform: scale(0.9);
+    color: #7f8997; /* Optional: adds a color effect on click */
+  }
+
+
+.bgshade{
+    background:  rgba(255, 255, 255, 0.2) !important;
+
+}
+
+.custom-table {
+    background: rgba(255, 255, 255, 0.4) !important;
+    backdrop-filter: blur(4px); 
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.custom-table th,
+.custom-table td {
+    background: transparent !important;
+    color: #fff; 
+}
+  /* background */
+  .bgimg {
+    position: relative;
+    overflow: hidden;
+    background-image: url('https://img.freepik.com/free-vector/realistic-dynamic-fog-background_23-2149111508.jpg?t=st=1745128206~exp=1745131806~hmac=9852520c1d2b58ddba413313f9cd9866846a408b7ac740d720f8733552ce3c6f&w=996'); /* Adjust path */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgimg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    background-position: center;
+    background:  rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px); 
+    transform: scale(1.1);
+    z-index: 0;
+    /* opacity: 0.6; */
+}
+
+.bgimg .content {
+    position: relative;
+    z-index: 1;
+}
+  

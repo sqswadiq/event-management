@@ -1,0 +1,17 @@
+
+.counter_container{
+    min-height: 40vh;
+    background-color: #FAF9F6;
+    padding: 0 50px;
+}
+.box{
+    /* width: calc(25% - 30px) !important; */
+    width: 40% !important;
+    background-color: #F8F9FA;
+    border-radius: 5px;
+    /* color: white;    */
+    box-shadow: 1px 1px 15px rgb(218, 210, 210);
+}
+.box .icon{
+    font-size: 40px;
+}

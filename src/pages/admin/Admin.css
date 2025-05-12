@@ -1,0 +1,32 @@
+.full_height{
+    height: 100vh;
+ }
+ .primarybg{
+     background-color: #F8F9FA ;
+ }
+ /* .secondarybg{
+     background-color: #04262C;
+ } */
+ .thirdbg{
+     background-color: #0a001a ;
+ }
+ 
+ .thirdcoloradmin{
+     color: #DDE5E5 ;
+ }
+ .activelink{
+    background-color: #13022e ;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* all event row image */
+.fixed-img {
+    width: 60px;  
+    height: 60px; 
+    object-fit: cover; 
+    border-radius: 5px; 
+}
+.overflowscroll{
+    overflow-x: scroll !important;
+}

@@ -1,0 +1,48 @@
+.grid-img {
+    border-radius: 10px;
+}
+.row .grid-img {
+    border-radius: 10px;
+}
+.custom-row {
+    height: 250px; 
+}
+.row h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+hr {
+    width: 25%;
+    margin: 0;
+}
+
+/* About Section */
+.aboutparent {
+    position: relative;
+    min-height: 100vh; /* Full height */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../../assets/Aboutbg.jpg') no-repeat center center/cover;
+}
+
+/* Blurred Overlay */
+.aboutparent::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    
+    background: rgba(0, 0, 0, 0.5); /* Darken effect */
+    backdrop-filter: blur(4px); /* Blur effect */    
+    z-index: 0; /* Place above background but behind content */
+}
+
+/* Ensure Content is Above the Blur */
+.aboutparent > * {
+    position: relative;
+    z-index: 1;
+}
